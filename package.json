@@ -1,0 +1,26 @@
+{
+  "name": "project-09-11",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "functions": "tsx src/1-functions.ts",
+    "errors": "tsx src/2-errors.ts",
+    "interface": "tsx src/3-interface.ts",
+    "flights": "tsx src/flights.ts",
+    "flights-bugs": "tsx src/flights-bugs.ts",
+    "watch": "tsx watch",
+    "start": "tsx",
+    "typecheck": "tsc",
+    "my": "tsx src/my.ts",
+    "tasks": "tsx src/tasks.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
