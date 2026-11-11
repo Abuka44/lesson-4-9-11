@@ -1,35 +1,35 @@
-// Задачи на неделю: функция принимает день недели и возвращает задачу
+// Weekly tasks: the function takes a day of the week and returns a task
 function getTask(day: string): string {
   switch (day) {
-    case "Понедельник":
-      return "Сделать ДЗ по TypeScript";
-    case "Вторник":
-      return "Повторить типы";
-    case "Среда":
-      return "Сходить в спортзал";
-    case "Четверг":
-      return "Выучить 10 английских слов";
-    case "Пятница":
-      return "Сдать ДЗ по Git";
-    case "Суббота":
-      return "Встретиться с друзьями";
-    case "Воскресенье":
-      return "Отдохнуть и подготовиться к неделе";
+    case "Monday":
+      return "Do the TypeScript homework";
+    case "Tuesday":
+      return "Review the types";
+    case "Wednesday":
+      return "Go to the gym";
+    case "Thursday":
+      return "Learn 10 English words";
+    case "Friday":
+      return "Submit the Git homework";
+    case "Saturday":
+      return "Meet with friends";
+    case "Sunday":
+      return "Rest and get ready for the week";
     default:
-      return "Такого дня нет";
+      return "There is no such day";
   }
 }
 
-// Выводим задачи на всю неделю
+// Print the tasks for the whole week
 function showWeek(): void {
   const days: string[] = [
-    "Понедельник",
-    "Вторник",
-    "Среда",
-    "Четверг",
-    "Пятница",
-    "Суббота",
-    "Воскресенье",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
   ];
 
   for (const day of days) {
