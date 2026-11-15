@@ -23,7 +23,9 @@ function delayed(list: Flight[]): Flight[] {
 function totalDelay(list: Flight[]): number {
   let sum = 0;
   for (const f of list) {
-    sum = sum + f.delayMin;
+    if (f.status === "delayed") {
+      sum = sum + f.delayMin;
+    }
   }
   return sum;
 }

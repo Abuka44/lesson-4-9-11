@@ -74,3 +74,9 @@ function totalRevenue(list: Booking[]): number {
   }
   return sum;
 }
+
+function findBookedByDate(list: Booking[], date: string): Booking[] {
+  return list.filter((b) => b.status === "booked" && b.startTime.startsWith(date));
+}
+
+console.log(findBookedByDate(bookings, "2026-11-14"));
