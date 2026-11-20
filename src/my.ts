@@ -1,13 +1,10 @@
-// Функция 1: стоимость поездки на такси
-// цена за километр * расстояние + стоимость подачи
-function taxiPrice(km: number, pricePerKm: number, startPrice: number): number {
-  return km * pricePerKm + startPrice;
+function add(a: number, b: number): number {
+  return a + b;
+}
+function greet(name: string, city?: string): string {
+  return city ? `Привет, ${name} из города ${city}!` : `Привет, ${name}!`;
 }
 
-// Функция 2: перевод минут в часы
-function minutesToHours(minutes: number): number {
-  return minutes / 60;
-}
-
-console.log(taxiPrice(10, 120, 300)); // 1500
-console.log(minutesToHours(90)); // 1.5
+add(2, 3);
+greet("Айгерим");
+const total: number = add(1, 2);
