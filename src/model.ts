@@ -79,4 +79,6 @@ function findBookedByDate(list: Booking[], date: string): Booking[] {
   return list.filter((b) => b.status === "booked" && b.startTime.startsWith(date));
 }
 
+// Прогноз: массив из одной записи - Дамира (id 2, "Стрижка + борода", 14 ноября, цена 8000, статус booked).
+// Алихан не подходит: у него 13 ноября и статус completed. Нурлан не подходит: 15 ноября и статус cancelled.
 console.log(findBookedByDate(bookings, "2026-11-14"));
