@@ -34,6 +34,10 @@ let less: boolean = abc < 2; // в чате переменная называл�
 // Прогноз: false - 3.14 не меньше 2
 console.log(less);
 
+
+
+
+
 // ===== Часть 3: три новые операции над массивом =====
 // Сейчас в xyz лежит [ 'alice', 'bob' ]
 // Прогноз: true - includes проверяет, есть ли элемент в массиве
@@ -44,6 +48,9 @@ console.log(xyz.indexOf("bob"));
 console.log(xyz.slice(0, 1));
 // Прогноз: [ 'alice', 'bob' ] - slice ничего не изменил в самом массиве
 console.log(xyz);
+
+
+
 
 // ===== Часть 4: const и let (примеры) =====
 
