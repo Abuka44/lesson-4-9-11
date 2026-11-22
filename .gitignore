@@ -5,3 +5,8 @@ dist/
 *.d.ts
 *.d.ts.map
 *.tsbuildinfo
+
+# секреты (токен бота) не должны попадать в git
+.env
+.env.*
+!.env.example

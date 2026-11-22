@@ -12,12 +12,13 @@
     "start": "tsx",
     "typecheck": "tsc",
     "my": "tsx src/my.ts",
-    "tasks": "tsx src/tasks.ts"
+    "tasks": "tsx src/tasks.ts",
+    "bot": "node --env-file=.env src/bot.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
